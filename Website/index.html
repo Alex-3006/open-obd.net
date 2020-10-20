@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start page</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .titel {
+            color: rgb(0, 102, 255);
+            font-size: 24px;
+            margin: auto;
+        }
+
+        .links {
+            font-size: 16px;
+            margin: auto;
+        }
+
+        .advantages {
+            background-color: rgb(255, 30, 30);
+            border-radius: 2%;
+        }
+
+        body {
+            background-color: royalblue;
+            position: relative;
+            min-height: 200vh;
+        }
+
+        .footer {
+            background-color: gray;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        hr.lines {
+            border: 5px solid blue;
+        }
+
+        .vertical {
+            border-left: 6px solid blue;
+            height: 590px;
+            position: absolute;
+            left: 50%;
+        }
+
+        .posnav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .button1{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light posnav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <p class="titel">Tester</p><span class="sr-only"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="row links">
+                <a class="navbar-brand col" href="index.html">
+                    <p>Home</p>
+                </a>
+                <a class="navbar-brand col" href="Products.html">
+                    <p>Products</p>
+                </a>
+                <a class="navbar-brand col" href="AppAndFunctionality.html">
+                    <p>App and functionality</p>
+                </a>
+                <a class="navbar-brand col" href="SupportedModels.html">
+                    <p>Supported Modells</p>
+                </a>
+                <a class="navbar-brand col" href="FAQ.html">
+                    <p>FAQ</p>
+                </a>
+                <a class="navbar-brand col" href="Help.html">
+                    <p>Help</p>
+                </a>
+            </div>
+            <a href="StartNow.html"><button class="btn btn-primary">Start now</button></a>
+            &nbsp; &nbsp; &nbsp;
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    User
+                </button>
+                <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="ShoppingCart.html">Shopping cart</a>
+                    <a class="dropdown-item" href="Help.html">Contact Us</a>
+                    <div class="row">
+                        <a class="dropdown-item col" href="LogIn.html">Log In</a>
+                        <a class="dropdown-item col" href="Register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+            &nbsp; &nbsp; &nbsp;
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Language
+                </button>
+                <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">German</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">French</a>
+                    <a class="dropdown-item" href="#">Spanish</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <div>
+        <center>
+            <h1>Tester</h1>
+        </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <br><br>
+        <div class="row">
+            <h2 class="col-md-2 offset-md-1">DIAGNOSE FOR</h2>
+        </div>
+        <div class="row">
+            <h2 class="col-mlg-2 offset-sm-2"><b>ALL</b> CAR TYPES</h2>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary col-sm-1 offset-md-1"><a href="StartNow.html" class="button1">Start now</a></button>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <br><br>
+        <div class="row">
+            <h2 class="col-md-2 offset-md-8">GETTING <b>PRO</b></h2>
+        </div>
+        <div class="row">
+            <h2 class="col-mlg-2 offset-sm-9">FOR MORE FEATURES</h2>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary col-sm-1 offset-md-8"><a href="StartNow.html" class="button1">Start now</a></button>
+        </div>
+        <br><br>
+    </div>
+    <br><br>
+    <div>
+        <br><br>
+        <div class="row">
+            <h2 class="col-md-4 offset-md-1">Buy now and get after max. 30</h2>
+        </div>
+        <div class="row">
+            <h2 class="col-mlg-2 offset-md-2">day <b>100%</b> money back</h2>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary col-sm-1 offset-md-1"><a href="StartNow.html" class="button1">Start now</a></button>
+        </div>
+        <br><br>
+    </div>
+    <br><br><br><br>
+    <div class="container advantages">
+        <center>
+            <h2>Advateges of Tester</h2>
+            <br>
+            <div class="vertical"></div>
+            <br>
+            <br>
+            <div class="row">
+                <h3 class="col">Tester</h3>
+                <h3 class="col">Other Car Diagnose</h3>
+            </div>
+            <br>
+            <hr class="lines"><br>
+            <div class="row">
+                <h3 class="col">Ios and android and Windows compatibility</h3>
+                <h3 class="col">Not with all compatible</h3>
+            </div>
+            <hr class="lines">
+            <div class="row">
+                <h3 class="col">Plug and Play</h3>
+                <h3 class="col">Dont need any driver</h3>
+            </div>
+            <hr class="lines">
+            <div class="row">
+                <h3 class="col">Compact and dont distrub</h3>
+                <h3 class="col">Cant be used during driving</h3>
+            </div>
+            <hr class="lines">
+            <div class="row">
+                <h3 class="col">Supports nearly all vechil marks</h3>
+                <h3 class="col">Can support only one brand</h3>
+            </div>
+            <hr class="lines">
+            <div class="row">
+                <h3 class="col">10 years warranty</h3>
+                <h3 class="col">Minimum warranty possible</h3>
+            </div>
+        </center>
+    </div>
+    <br><br><br>
+    <div>
+        <!-- inside -->
+    </div>
+    <footer class="footer">
+        <br>
+        <div class="row">
+            <h2 class="offset-md-2 col-md-1">Tester</h2>
+            <h2 class="offset-md-3">Links</h2>
+            <h3 class="offset-md-2">Contact us at:</h3>
+        </div>
+        <div class="row">
+            <a href="index.html" class="offset-sm-6 col-md-2">Home</a>
+            <i class="fa fa-instagram offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="Products.html" class="offset-md-6 col-md-2">Products</a>
+            <i class="fa fa-youtube-play offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="AppAndFunctionality.html" class="offset-md-6 col-md-2">App and functionality</a>
+            <i class="fa fa-whatsapp offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="SupportedModels.html" class="offset-md-6 col-md-2">Supported Modells</a>
+            <i class="fa fa-twitter offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="FAQ.html" class="offset-md-6 col-md-2">FAQ</a>
+        </div>
+        <div class="row">
+            <a href="Help.html" class="offset-md-6 col-md-2">Help</a>
+        </div>
+        <div class="row">
+            <a href="StartNow.html" class="offset-md-6 col-md-2">Start Now</a>
+        </div>
+    </footer>
+</body>
+
+</html>

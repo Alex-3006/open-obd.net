@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .titel {
+            color: rgb(0, 102, 255);
+            font-size: 24px;
+            margin: auto;
+        }
+
+        .links {
+            font-size: 16px;
+            margin: auto;
+        }
+
+        body {
+            background-color: royalblue;
+            position: relative;
+            min-height: 120vh;
+        }
+
+        .footer {
+            background-color: gray;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .posnav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: #0b7dda;
+        }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .inset {
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(73, 73, 73);
+            background-color: rgb(184, 183, 183);
+        }
+
+        .feedback {
+            background-color: rgb(73, 73, 73);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border-color: black;
+        }
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light posnav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <p class="titel">Tester</p><span class="sr-only"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="row links">
+                <a class="navbar-brand col" href="index.html">
+                    <p>Home</p>
+                </a>
+                <a class="navbar-brand col" href="Products.html">
+                    <p>Products</p>
+                </a>
+                <a class="navbar-brand col" href="AppAndFunctionality.html">
+                    <p>App and functionality</p>
+                </a>
+                <a class="navbar-brand col" href="SupportedModels.html">
+                    <p>Supported Modells</p>
+                </a>
+                <a class="navbar-brand col" href="FAQ.html">
+                    <p>FAQ</p>
+                </a>
+                <a class="navbar-brand col" href="Help.html">
+                    <p>Help</p>
+                </a>
+            </div>
+            <a href="StartNow.html"><button class="btn btn-primary">Start now</button></a>
+            &nbsp; &nbsp; &nbsp;
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    User
+                </button>
+                <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="ShoppingCart.html">Shopping cart</a>
+                    <a class="dropdown-item" href="Help.html">Contact Us</a>
+                    <div class="row">
+                        <a class="dropdown-item col" href="LogIn.html">Log In</a>
+                        <a class="dropdown-item col" href="Register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+            &nbsp; &nbsp; &nbsp;
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Language
+                </button>
+                <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">German</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">French</a>
+                    <a class="dropdown-item" href="#">Spanish</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br>
+    <div>
+        <center>
+            <h1>FAQ</h1>
+        </center>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+        <h1>Main Questions:</h1>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <center>
+            <h1>If you have another question write it here:</h1>
+            <br>
+            <form action="MAILTO:alec.nero.com@gmail.com" method="post" enctype="text/plain">
+                NAME: <br>
+                <input type="text" name="user" /><br>
+                Email: <br>
+                <input type="email" name="mail" /><br>
+                Comment: <br>
+                <input  placeholder="Write your questions" type="text" name="comment" size="50%" /><br>
+                <br><br>
+                <input type="submit" value="Send" class="feedback col-md-1" />
+                <input type="Reset" value="Reset" class="feedback col-md-1" />
+            </form>
+        </center>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+        <div class="jumbatron inset">
+            <center>
+                <h2>You didn´t got an answer in 48 hours?</h2>
+                <h2>Were sorry:(</h2>
+                <h2>Phone us on ...</h2>
+            </center>
+        </div>
+    </div>
+    <br><br><br>
+    <footer class="footer">
+        <br>
+        <div class="row">
+            <h2 class="offset-md-2 col-md-1">Tester</h2>
+            <h2 class="offset-md-3">Links</h2>
+            <h3 class="offset-md-2">Contact us at:</h3>
+        </div>
+        <div class="row">
+            <a href="index.html" class="offset-sm-6 col-md-2">Home</a>
+            <i class="fa fa-instagram offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="Products.html" class="offset-md-6 col-md-2">Products</a>
+            <i class="fa fa-youtube-play offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="AppAndFunctionality.html" class="offset-md-6 col-md-2">App and functionality</a>
+            <i class="fa fa-whatsapp offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="SupportedModels.html" class="offset-md-6 col-md-2">Supported Modells</a>
+            <i class="fa fa-twitter offset-md-1" style="font-size:30px"></i>
+        </div>
+        <div class="row">
+            <a href="FAQ.html" class="offset-md-6 col-md-2">FAQ</a>
+        </div>
+        <div class="row">
+            <a href="Help.html" class="offset-md-6 col-md-2">Help</a>
+        </div>
+        <div class="row">
+            <a href="StartNow.html" class="offset-md-6 col-md-2">Start Now</a>
+        </div>
+    </footer>
+</body>
+
+</html>
