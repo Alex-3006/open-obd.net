@@ -1,10 +1,36 @@
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 20rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
 }
+/* https://flatuicolors.com/ */
 
 h1{
     font-weight: 300;
+}
+.c1{
     color: yellowgreen;
+    /* color: #fed330; */
+    /* background-color: #fed330; */
+    /* color: #f39c12; */
+    /* color: #f1c40f; */
+}
+
+.c2{
+    color: #fed330;
+    /* background-color: #fed330; */
+    /* color: #f39c12; */
+    /* color: #f1c40f; */
+}
+
+.c3{
+    /* background-color: #fed330; */
+    color: #f39c12;
+    /* color: #f1c40f; */
+}
+
+.c4{
+    color: #f1c40f;
 }
